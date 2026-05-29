@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="login.css" rel="stylesheet">
+  <script src="login.js"></script>
+</head>
+<body>
+  <br>
+  <hr>
+  <div class="container2">
+    <h2><b>CREATE AN ACCOUNT</b></h2><br>
+    <p>You will receive the confirmation mail to your email address associated with<br>account. Please make sure to check your incoming email from us.</p>
+    <form>
+      <div class="information">
+        <label for="email">EMAIL ADDRESS</label><br>
+        <input type="email" id="email" required>
+        <p>Enter a valid Email</p>
+      </div>
+      <div class="information">
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="Show" required>
+        <p>Password must be at least 8 characters, and contain both letters and numbers.</p>
+        <br>
+        <input type="checkbox" name="" onclick="showPassword()">
+        <label>Show Password</label>
+      </div>
+      <div class="information">
+        <label for="birthday">BIRTHDAY</label><br>
+        <input type="date" id="birthday" required>
+      </div>
+      <div class="information">
+        <label for="checkbox">GENDER</label><br>
+        <input type="checkbox" id="gender">
+        <label for="male"> Male</label>&nbsp;
+        <input type="checkbox" id="Female">
+        <label for="female"> Female</label>
+      </div>
+      <hr><br>
+      <p id="register-error" style="color: red; font-size: 13px; margin-bottom: 10px;"></p>
+      <button type="button" class="btn" onclick="Register()">Register</button>
+     </form>
+  </div>
+  <footer>COPYRIGHT &copy; UNIQDO CO., LTD. ALL RIGHTS RESERVED.</footer>
+</body>
+</html>
+
+<!-- email: khaizuran.amshar@gmail.com   password: user1234 -->

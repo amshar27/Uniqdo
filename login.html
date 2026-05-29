@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="login.css" rel="stylesheet">
+  <script src="login.js"></script>
+</head>
+<body>
+  <div class="header">
+    <img src="uniqdo.png" alt="Uniqdo image">
+  </div>
+  <br>
+  <hr>
+  <table>
+    <tr>
+    <td>
+  <div class="container1">
+    <h2><b>LOGIN</b></h2><br>
+    <p>Log in with your email address and password.
+  </p>
+    <form>
+      <div class="information">
+        <label for="email">EMAIL ADDRESS</label><br>
+        <input type="email" id="email" required>
+        <p>Enter a valid Email</p>
+      </div>
+      <div class="information">
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="Show" required>
+        <p>Password must be at least 8 characters, and contain both letters and numbers.</p>
+        <br>
+        <input type="checkbox" name="" onclick="showPassword()">
+        <label>Show Password</label>
+      </div>
+         <p id="login-error" style="color: red; font-size: 13px; margin-bottom: 10px;"></p>
+         <button type="button" class="btn" onclick="LogIn()">LOG IN</button>
+     </form>
+  </div>
+    </td>
+    <td>
+      <div class="NewAccount">
+        <h2><b>CREATE AN ACCOUNT</b></h2>
+        <p>If you create an account, it takes less time to go through checkout and complete your orders. Register today for free!</p>
+
+        <a href="CreateAccount.html"><button class="button">CREATE AN ACCOUNT</button></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+  <footer>COPYRIGHT &copy; UNIQDO CO., LTD. ALL RIGHTS RESERVED.</footer>
+</body>
+</html>

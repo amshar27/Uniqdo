@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="login.css" rel="stylesheet">
+  <script src="login.js"></script>
+</head>
+<body>
+  <div class="header">
+    <img src="uniqdo.png" alt="Uniqdo image">
+  </div>
+  <br>
+  <hr>
+  <div class="container3">
+    <h2><b>GIVE YOUR FEEDBACK</b></h2><br>
+    <form>
+      <div class="information">
+        <label for="name">NAME</label><br>
+        <input type="text" id="name" placeholder="Name">
+      </div>
+      <div class="information">
+        <label for="email">EMAIL ADDRESS</label><br>
+        <input type="email" id="email" placeholder="Email">
+        <p>Enter a valid Email</p>
+      </div>
+      <div class="information">
+        <label for="phone">PHONE NUMBER</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="012-3456789" pattern="[0-9]{3}-[0-9]{7}" required>
+        <p>Enter a valid phone number</p>
+      </div><br>
+      <div class="information">
+        <label for="message">YOUR MESSAGE</label><br>
+        <textarea id="message" rows="9" cols="81" placeholder="Your message"></textarea>
+      </div>
+      <div class="information">
+        <button type="submit" class="btn" onclick="SubmitFunction()">submit</button>
+      </div>
+    </form>
+  <footer>COPYRIGHT &copy; UNIQDO CO., LTD. ALL RIGHTS RESERVED.</footer>
+</body>
+</html>

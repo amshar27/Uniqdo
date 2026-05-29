@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+.header{
+  margin-top: 60px;
+  margin-left: 95px;
+}
+.header img {
+  width: 100px;
+}
+table{
+  margin: auto;
+}
+.container1{
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  height: 450px;
+}
+.container2{
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  height: 650px;
+}
+.container3{
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  height: 700px;
+}
+.container1 h2,
+.container2 h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+.container1 p,
+.container2 p{
+  font-size: smaller;
+}
+.information{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.information p{
+  font-size: smaller;
+}
+label[for=email],
+label[for=password],
+label[for=birthday],
+label[for=checkbox],
+label[for=name],
+label[for=phone],
+label[for=message]{
+  display: block;
+  font-weight: bold;
+}
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="text"],
+input[type="tel"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+textarea{
+  border-radius: 5px;
+}
+.btn{
+display: inline-block;
+padding: 10px 20px;
+background-color: black;
+color: white;
+text-align: center;
+text-decoration: none;
+border: none;
+cursor: pointer;
+min-width: 300px;
+font-weight: bold;
+font-size: larger;
+}
+.NewAccount{
+  max-width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  height: 450px;
+}
+.NewAccount h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+.NewAccount p{
+  font-size: smaller;
+  margin-top: 20px;
+}
+.button{
+  display: inline-block;
+  padding: 25px 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  min-width: 300px;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 50px;
+}
+footer{
+  margin-top: 190px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;;
+}
+
