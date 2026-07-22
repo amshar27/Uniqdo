@@ -1,5 +1,9 @@
 # UNIQDO
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
+
 A minimalist fashion retail website built as a Foundation in Computer Technology **Web Development** final assessment. It is a multi-page static site — plain HTML, CSS, and vanilla JavaScript with **no framework, no build step, and no backend**. User accounts and login sessions are simulated entirely in the browser using `localStorage`.
 
 ## Features
